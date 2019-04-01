@@ -41,7 +41,7 @@ aws_secret_access_key = J3uMQubsZ7FI8GrEE...
 aws_session_token = FQoGZXIvYXdzEGcaDLoHi3ewVVprnyPGdCKw...
 ```
 
-*Usage*
+**Usage**
 
 - Check out or download
 - `npm  i`
