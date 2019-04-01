@@ -1,0 +1,12 @@
+{
+  "name": "aws-mfa-helper",
+  "version": "1.0.0",
+  "description": "Node script to update the AWS 2FA session token. It requires the aws cli.",
+  "main": "index.js",
+  "author": "saku",
+  "license": "MIT",
+  "dependencies": {
+    "ini": "^1.3.5",
+    "yargs": "^13.2.2"
+  }
+}
