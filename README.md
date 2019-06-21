@@ -10,6 +10,16 @@ https://docs.aws.amazon.com/cli/latest/reference/sts/get-session-token.html
   - aws iam list-mfa-devices --user-name \<username\>
   - You get something like arn:aws:iam::123456789012:mfa/user
 
+**Usage**
+
+- install global: npm install -g https://github.com/sakucodes/aws-cli-2fa-helper
+- configure: aws-mfa-gen config -s <your-aws-credentials-section-name> -d <your-device-serial-number>
+- use it: aws-mfa-gen 123456
+
+----
+
+## General
+
 **Create Session Token**
 If you have everything you need, you can generate your session token.
 The cli command:
@@ -41,11 +51,4 @@ aws_secret_access_key = J3uMQubsZ7FI8GrEE...
 aws_session_token = FQoGZXIvYXdzEGcaDLoHi3ewVVprnyPGdCKw...
 ```
 
-**Usage**
-
-- Check out or download
-- `npm  i`
-- modify the config.template.ini
-- rename to config.ini
-- node ./index.js \<code\>
 
