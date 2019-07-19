@@ -13,7 +13,7 @@ https://docs.aws.amazon.com/cli/latest/reference/sts/get-session-token.html
 **Usage**
 
 - install global: npm install -g https://github.com/sakucodes/aws-cli-2fa-helper
-- configure: aws-mfa-gen config -s <your-aws-credentials-section-name> -d <your-device-serial-number>
+- configure: aws-mfa-gen config -s \<your-aws-credentials-section-name\> -d \<your-device-serial-number\>
 - use it: aws-mfa-gen 123456
 
 ----
