@@ -13,6 +13,6 @@
   "license": "MIT",
   "dependencies": {
     "ini": "^1.3.5",
-    "yargs": "^13.2.4"
+    "yargs": "^16.1.0"
   }
 }
