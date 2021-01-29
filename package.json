@@ -1,6 +1,6 @@
 {
   "name": "aws-mfa-gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node script to update the AWS 2FA session token. It requires the aws cli.",
   "main": "./bin/entry.js",
   "bin": {
@@ -12,7 +12,7 @@
   "author": "Sascha Kupper [sakucodes]",
   "license": "MIT",
   "dependencies": {
-    "ini": "^1.3.5",
-    "yargs": "^16.1.0"
+    "ini": "^2.0.0",
+    "yargs": "^16.2.0"
   }
 }
